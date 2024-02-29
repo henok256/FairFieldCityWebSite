@@ -112,30 +112,38 @@ a {
   background-color: #fffef3;
 }
 .notification .list_item {
-  border: 1px solid lightgray;
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
+  margin-right: 3em;
+  box-shadow: 3px 3px 13px 0px rgba(0, 0, 0, 0.11);
+}
+
+.list_item > div {
+  border-left: 4px solid green;
+  padding-left: 10px;
 }
 .oval-button{
     align-content: end;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 .oval-button a{
     padding: 20px ;
-    border-radius: 10px;
+    border-radius: 40px;
     background-color: #276246;
+    color: white;
 }
 .calander {
   width: 50%;
   flex-grow: 1;
 }
-.list_item > div {
-  border-left: 4px solid green;
-  padding-left: 10px;
+.calander h3 a{
+  color: #276246;
 }
 .footer {
   color: white;
-  background-image: url("images/footer_background.jpeg");
+  background-image: url("../images/footer_background.jpeg");
 }
 .footer-content {
   padding: 3em 5em;
