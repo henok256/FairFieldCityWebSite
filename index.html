@@ -94,22 +94,19 @@
         margin: 0px;
         background-color: #f5f4ea;
       }
-      #backgroundImage {
-        background-image: url("images/fairfield.jpeg");
-        background-size: cover;
-        width: 100%;
-        height: 300px;
-      }
       .service_links {
         display: flex;
         justify-content: space-around;
         padding: 50px;
         background-color: #f5f4ea;
       }
-     a{
+
+      .service_links > div > a {
+        color: #276246;
+      }
+      a {
         text-decoration: none;
-     }
-      
+      }
     </style>
   </head>
   <body>
@@ -165,7 +162,7 @@
       </div>
     </div>
     <div class="main_content">
-      <div id="backgroundImage"></div>
+      <img src="images/fairfield.jpeg" alt="" />
       <div class="service_links">
         <div>
           <a href="https://cityoffairfieldiowa.com/242/Pay-Utility-Bill"
