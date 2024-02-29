@@ -4,133 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fairfield, IA - Official Website | Official Website</title>
-    <style>
-      body {
-        margin: 0;
-      }
-      /* header */
-      .top-header {
-        background-color: #276246;
-        color: white;
-        font-size: 0.9em;
-        padding: 0px 55px;
-      }
-      .top-header > div {
-        padding: 10px;
-      }
-      .top-header > div > a {
-        color: #fff39d;
-        font-weight: 700px;
-      }
-      #login_link {
-        color: white;
-        background-color: #3d7259;
-        font-weight: 700px;
-        padding: 10px;
-      }
-      .nav-bar {
-        padding: 10px;
-      }
-      .flex-container {
-        display: flex;
-      }
-      .flex-container.top-header {
-        justify-content: space-between;
-      }
-
-      .flex-container.nav-bar {
-        justify-content: space-between;
-        align-items: stretch;
-      }
-
-      .dropbtn {
-        background-color: white;
-        color: #505153;
-        padding: 16px;
-        font-size: 16px;
-        text-transform: uppercase;
-        border: none;
-      }
-
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #276246;
-        min-width: 200px;
-        z-index: 1;
-      }
-
-      .dropdown-content a {
-        color: white;
-        padding: 12px 16px;
-        display: block;
-      }
-
-      .dropdown-content a:hover {
-        background-color: #276246;
-      }
-
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-
-      .dropdown:hover .dropbtn {
-        background-color: #276246;
-        color: white;
-      }
-      .circle_icon {
-        border-radius: 50%;
-        margin: auto 20px;
-      }
-      .search {
-        padding: 20px;
-        border-radius: 50px;
-        border: 0px;
-        margin: 0px;
-        background-color: #f5f4ea;
-      }
-      .service_links {
-        display: flex;
-        justify-content: space-around;
-        padding: 50px;
-        background-color: #f5f4ea;
-      }
-
-      .service_links > div > a {
-        color: #6d6d6a;
-      }
-      a {
-        text-decoration: none;
-      }
-      .notification {
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-        width: 50%;
-      }
-      .notification > div {
-        background-color: #fffef3;
-      }
-      .notification .list_item {
-        border: 1px solid lightgray;
-        border-radius: 5px;
-        padding: 20px;
-        margin: 10px;
-      }
-      .calander {
-        width: 50%;
-        flex-grow: 1;
-      }
-      .list_item > div {
-        border-left: 4px solid green;
-        padding-left: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <div class="header">
@@ -146,8 +20,7 @@
         <a id="login_link" href="">Website Sign In</a>
       </div>
       <div class="nav-bar flex-container">
-        <a href="#"></a>
-        <img src="images/logo.png" alt="" />
+        <a href="#"> <img src="images/logo.png" alt="" /></a>
         <div>
           <div class="dropdown">
             <div class="dropbtn">Departments</div>
@@ -323,6 +196,53 @@
         </div>
       </div>
     </div>
-    <div class="footer"></div>
+    
+    <div class="footer">
+      <div class="footer-content flex-container">
+        <div>
+          <img src="images/footer_logo.png" alt="" />
+        </div>
+        <div>
+          <h3>Contact Us</h3>
+          <pre>
+City Hall
+118 S Main Street
+Fairfield, IA 52556
+        </pre
+          >
+
+          <h4>
+            Phone:
+            <a href="tel: 641-472-6193" target="_self" class="Hyperlink"
+              >641-472-6193</a
+            >
+          </h4>
+          <a href="/directory" target="_self" class="Hyperlink">Contact Us</a>
+        </div>
+        <div>
+          <h3><a href="">Quick Links</a></h3>
+
+          <a href="#">Online Payments</a><br />
+          <a href="#">Jefferson County Sheriff</a><br />
+          <a href="#">Trash & Recycling</a><br />
+          <a href="#">County Assessor</a><br />
+          <a href="#">Drivers Licensing & Vehicle Registration</a><br />
+        </div>
+        <div>
+          <h3><a href="#">Site Links</a></h3>
+          <a href="#">Home</a><br />
+          <a href="#">Site Map</a><br />
+          <a href="#">Contact Us</a><br />
+          <a href="#">Accessibility</a><br />
+          <a href="#">Copyright Notices</a><br />
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-link">
+      <span class="cpBylineTS"
+        >Government Websites by
+        <a href="https://connect.civicplus.com/referral">CivicPlus®</a></span
+      >
+    </div>
   </body>
 </html>
